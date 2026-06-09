@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 // Burası Google ve LinkedIn gibi platformlarda görünecek SEO (Meta) bilgilerinizdir.
 export const metadata: Metadata = {
   title: 'Ebrar Sultan Kaya | Full Stack Developer',
-  description: 'Yönetim Bilişim Sistemleri öğrencisi. React, Next.js ve C# ile modern, yüksek performanslı ve kullanıcı odaklı web projeleri geliştiriyorum.',
+  description: 'Yönetim Bilişim Sistemleri mezunu. React, Next.js ve C# ile modern, yüksek performanslı ve kullanıcı odaklı web projeleri geliştiriyorum.',
   keywords: ['Ebrar Sultan Kaya', 'Full Stack Developer', 'Yazılım', 'Next.js', 'React', 'C#', 'Portfolyo'],
 };
 

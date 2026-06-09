@@ -17,8 +17,8 @@ export default function Home() {
           {/* Sayfa Linkleri */}
           <div className="flex gap-8">
             <Link href="/" className="text-rose-500 font-semibold">Ana Sayfa</Link>
-            <Link href="/projeler" className="hover:text-rose-500 transition-colors">Projeler</Link>
             <Link href="/hakkimda" className="hover:text-rose-500 transition-colors">Hakkımda</Link>
+            <Link href="/projeler" className="hover:text-rose-500 transition-colors">Projeler</Link>
             <Link href="/iletisim" className="hover:text-rose-500 transition-colors">İletişim</Link>
           </div>
 

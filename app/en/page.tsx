@@ -17,8 +17,8 @@ export default function HomeEN() {
           {/* İngilizce Sayfa Linkleri */}
           <div className="flex gap-8">
             <Link href="/en" className="text-rose-500 font-semibold">Home</Link>
-            <Link href="/en/projects" className="hover:text-rose-500 transition-colors">Projects</Link>
             <Link href="/en/about" className="hover:text-rose-500 transition-colors">About Me</Link>
+            <Link href="/en/projects" className="hover:text-rose-500 transition-colors">Projects</Link>
             <Link href="/en/contact" className="hover:text-rose-500 transition-colors">Contact</Link>
           </div>
 
