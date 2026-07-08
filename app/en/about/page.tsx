@@ -32,7 +32,8 @@ export default function AboutEN() {
       <div className="max-w-4xl w-full bg-white/80 backdrop-blur-sm border border-rose-100 rounded-3xl shadow-sm p-10 mb-10 z-10">
         <h2 className="text-2xl font-bold mb-4 text-slate-800">Hello, I'm Ebrar Sultan Kaya</h2>
         <p className="text-lg text-slate-600 leading-relaxed font-light">
-          I am a 4th-year Management Information Systems student at Bursa Uludag University. I have internship experiences in frontend and backend development processes [13]. I develop user-oriented interfaces using React, Next.js, and C# technologies; aiming to add value to projects with my teamwork and problem-solving skills [13, 14].
+          I am a graduate of Management Information Systems with internship experience in frontend and backend development, as well as ERP and SQL processes. I have developed user-focused interfaces using React, Next.js, and JavaScript. I am skilled in problem-solving, teamwork, and adapting quickly to new technologies. I aim to continuously improve my technical expertise by contributing to technology-driven projects while creating value for the company.
+
         </p>
       </div>
 
@@ -43,16 +44,16 @@ export default function AboutEN() {
           <div className="mb-6 relative pl-4 border-l-2 border-rose-300">
             <h4 className="font-semibold text-slate-700">Intern | ALTTANTIRE</h4>
             <span className="text-sm text-rose-500 font-medium">Oct 2025 – Feb 2026</span>
-            <p className="text-slate-600 mt-2 text-sm font-light">Received training on ERP systems and warehouse processes [15].</p>
+            <p className="text-slate-600 mt-2 text-sm font-light">Developed user interfaces using React, Next.js, and JavaScript  [15].</p>
           </div>
           <div className="mb-6 relative pl-4 border-l-2 border-rose-300">
             <h4 className="font-semibold text-slate-700">Software Developer Intern | IONTEGRA</h4>
             <span className="text-sm text-rose-500 font-medium">Jun 2025 – Oct 2025</span>
-            <p className="text-slate-600 mt-2 text-sm font-light">Developed user interfaces using React, Next.js, and JavaScript [14].</p>
+            <p className="text-slate-600 mt-2 text-sm font-light">Received training on ERP systems and warehouse processes[14].</p>
           </div>
-          <div className="relative pl-4 border-l-2 border-slate-200">
+          <div className="relative pl-4 border-l-2 border-rose-300">
             <h4 className="font-semibold text-slate-700">Communication Consultant | Turkcell</h4>
-            <span className="text-sm text-slate-500 font-medium">Feb 2021 – Mar 2024</span>
+            <span className="text-sm text-rose-500 font-medium">Feb 2021 – Mar 2024</span>
             <p className="text-slate-600 mt-2 text-sm font-light">Managed consulting and sales-oriented communication processes [14].</p>
           </div>
         </div>
@@ -81,9 +82,10 @@ export default function AboutEN() {
       
       {/* Now Page */}
       <div className="max-w-4xl w-full bg-rose-50/50 border border-rose-100 rounded-3xl shadow-sm p-10 z-10 relative overflow-hidden">
-        <h3 className="text-2xl font-bold mb-4 text-rose-800 relative z-10">✨ What I'm doing now?</h3>
+        <h3 className="text-2xl font-bold mb-4 text-rose-800 relative z-10"> What I'm doing now?</h3>
         <p className="text-rose-900/80 leading-relaxed relative z-10 font-light">
-          Currently, I am developing my personal digital portfolio using modern web technologies. While continuing my senior year at the university, I am also strengthening my Full Stack skills.
+          I am a graduate of Management Information Systems from Bursa Uludağ University and currently live in Istanbul. I am seeking a long-term position where I can further develop my personal digital portfolio and enhance my expertise in both front-end and back-end technologies.
+
         </p>
       </div>
     </main>
