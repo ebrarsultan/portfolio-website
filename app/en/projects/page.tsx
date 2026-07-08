@@ -10,21 +10,21 @@ export default function ProjectsEN() {
 
       {/* İngilizce Menü */}
       <nav className="fixed top-8 z-50 flex items-center justify-center w-full px-6">
-        <div className="flex items-center gap-6 px-8 py-4 bg-white/70 backdrop-blur-md border border-slate-100 rounded-full shadow-sm text-sm font-medium text-slate-500">
-          <div className="flex gap-8">
-            <Link href="/en" className="hover:text-rose-500 transition-colors">Home</Link>
-            <Link href="/en/projects" className="text-rose-500 font-semibold">Projects</Link>
-            <Link href="/en/about" className="hover:text-rose-500 transition-colors">About Me</Link>
-            <Link href="/en/contact" className="hover:text-rose-500 transition-colors">Contact</Link>
-          </div>
-          <div className="w-px h-5 bg-slate-300 ml-2"></div>
-          <div className="flex items-center gap-2 text-xs font-bold tracking-widest">
-            <Link href="/projeler" className="text-slate-400 hover:text-rose-500 transition-colors">TR</Link>
-            <span className="text-slate-300">|</span>
-            <span className="text-rose-500 cursor-default">EN</span>
-          </div>
-        </div>
-      </nav>
+  <div className="flex items-center gap-6 px-8 py-4 bg-white/70 backdrop-blur-md border border-slate-100 rounded-full shadow-sm text-sm font-medium text-slate-500">
+    <div className="flex gap-8">
+      <Link href="/en" className="hover:text-rose-500 transition-colors">Home</Link>
+      <Link href="/en/about" className="hover:text-rose-500 transition-colors">About Me</Link>
+      <Link href="/en/projects" className="text-rose-500 font-semibold">Projects</Link>
+      <Link href="/en/contact" className="hover:text-rose-500 transition-colors">Contact</Link>
+    </div>
+    <div className="w-px h-5 bg-slate-300 ml-2"></div>
+    <div className="flex items-center gap-2 text-xs font-bold tracking-widest">
+      <Link href="/projeler" className="text-slate-400 hover:text-rose-500 transition-colors">TR</Link>
+      <span className="text-slate-300">|</span>
+      <span className="text-rose-500 cursor-default">EN</span>
+    </div>
+  </div>
+</nav>
 
       <h1 className="text-5xl font-bold mb-16 text-slate-800 tracking-tight">My Projects</h1>
       

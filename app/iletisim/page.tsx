@@ -10,13 +10,21 @@ export default function Iletisim() {
 
       {/* Sabit Cam Efektli Menü */}
       <nav className="fixed top-8 z-50 flex items-center justify-center w-full px-6">
-        <div className="flex gap-8 px-8 py-4 bg-white/70 backdrop-blur-md border border-slate-100 rounded-full shadow-sm text-sm font-medium text-slate-500">
-          <Link href="/" className="hover:text-rose-500 transition-colors">Ana Sayfa</Link>
-          <Link href="/projeler" className="hover:text-rose-500 transition-colors">Projeler</Link>
-          <Link href="/hakkimda" className="hover:text-rose-500 transition-colors">Hakkımda</Link>
-          <Link href="/iletisim" className="text-rose-500 font-semibold">İletişim</Link>
-        </div>
-      </nav>
+  <div className="flex items-center gap-6 px-8 py-4 bg-white/70 backdrop-blur-md border border-slate-100 rounded-full shadow-sm text-sm font-medium text-slate-500">
+    <div className="flex gap-8">
+      <Link href="/" className="hover:text-rose-500 transition-colors">Ana Sayfa</Link>
+      <Link href="/hakkimda" className="hover:text-rose-500 transition-colors">Hakkımda</Link>
+      <Link href="/projeler" className="hover:text-rose-500 transition-colors">Projeler</Link>
+      <Link href="/iletisim" className="text-rose-500 font-semibold">İletişim</Link>
+    </div>
+    <div className="w-px h-5 bg-slate-300 ml-2"></div>
+    <div className="flex items-center gap-2 text-xs font-bold tracking-widest">
+      <span className="text-rose-500 cursor-default">TR</span>
+      <span className="text-slate-300">|</span>
+      <Link href="/en/contact" className="text-slate-400 hover:text-rose-500 transition-colors">EN</Link>
+    </div>
+  </div>
+</nav>
 
       {/* İletişim İçeriği */}
       <div className="z-10 flex flex-col items-center text-center max-w-4xl mt-10 w-full">

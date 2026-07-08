@@ -12,27 +12,21 @@ export default function HomeEN() {
 
       {/* İngilizce Menü (Glassmorphism) */}
       <nav className="fixed top-8 z-50 flex items-center justify-center w-full px-6">
-        <div className="flex items-center gap-6 px-8 py-4 bg-white/70 backdrop-blur-md border border-slate-100 rounded-full shadow-sm text-sm font-medium text-slate-500">
-          
-          {/* İngilizce Sayfa Linkleri */}
-          <div className="flex gap-8">
-            <Link href="/en" className="text-rose-500 font-semibold">Home</Link>
-            <Link href="/en/about" className="hover:text-rose-500 transition-colors">About Me</Link>
-            <Link href="/en/projects" className="hover:text-rose-500 transition-colors">Projects</Link>
-            <Link href="/en/contact" className="hover:text-rose-500 transition-colors">Contact</Link>
-          </div>
-
-          {/* Dikey Ayraç ve TR | EN Geçiş Alanı */}
-          <div className="w-px h-5 bg-slate-300 ml-2"></div>
-          <div className="flex items-center gap-2 text-xs font-bold tracking-widest">
-            {/* TR rotasına geri yönlendiren buton */}
-            <Link href="/" className="text-slate-400 hover:text-rose-500 transition-colors">TR</Link>
-            <span className="text-slate-300">|</span>
-            <span className="text-rose-500 cursor-default">EN</span>
-          </div>
-          
-        </div>
-      </nav>
+  <div className="flex items-center gap-6 px-8 py-4 bg-white/70 backdrop-blur-md border border-slate-100 rounded-full shadow-sm text-sm font-medium text-slate-500">
+    <div className="flex gap-8">
+      <Link href="/en" className="text-rose-500 font-semibold">Home</Link>
+      <Link href="/en/about" className="hover:text-rose-500 transition-colors">About Me</Link>
+      <Link href="/en/projects" className="hover:text-rose-500 transition-colors">Projects</Link>
+      <Link href="/en/contact" className="hover:text-rose-500 transition-colors">Contact</Link>
+    </div>
+    <div className="w-px h-5 bg-slate-300 ml-2"></div>
+    <div className="flex items-center gap-2 text-xs font-bold tracking-widest">
+      <Link href="/" className="text-slate-400 hover:text-rose-500 transition-colors">TR</Link>
+      <span className="text-slate-300">|</span>
+      <span className="text-rose-500 cursor-default">EN</span>
+    </div>
+  </div>
+</nav>
 
       {/* Ana İçerik */}
       <div className="z-10 flex flex-col items-center text-center max-w-3xl px-6 mt-16">
@@ -67,7 +61,8 @@ export default function HomeEN() {
         
         {/* İngilizce Alt Metin */}
         <p className="text-xl md:text-2xl text-slate-600 mb-12 leading-relaxed max-w-2xl font-light">
-          Management Information Systems student. I design modern, energetic, and user-centric digital experiences using <strong className="font-medium text-slate-700">React, Next.js, and C#</strong>.
+          I am a graduate of Management Information Systems from Uludağ University. I design modern, user-centered digital experiences using React, Next.js, and C#. I also develop both frontend and backend projects. I am eager to continuously improve my skills and am always open to working on new and innovative project ideas.
+ <strong className="font-medium text-slate-700">React, Next.js, and C#</strong>.
         </p>
 
         {/* İngilizce CV İndir Butonu */}

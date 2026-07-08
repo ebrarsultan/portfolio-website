@@ -66,7 +66,7 @@ export default function Home() {
         
         {/* Alt Metin */}
         <p className="text-xl md:text-2xl text-slate-600 mb-12 leading-relaxed max-w-2xl font-light">
-          Yönetim Bilişim Sistemleri öğrencisiyim. <strong className="font-medium text-slate-700">React, Next.js ve C#</strong> ile modern, enerjik ve kullanıcı odaklı dijital deneyimler tasarlıyorum.
+          Uludağ Üniversitesi Yönetim Bilişim Sistemleri mezunuyum. <strong className="font-medium text-slate-700">React, Next.js ve C#</strong> ile modern ve kullanıcı odaklı dijital deneyimler tasarlıyorum. Aynı zamanda frontend\backend projeler geliştiriyorum. Her türlü yeni proje fikirlerinde kendimi geliştirmeye açığım.
         </p>
 
         {/* Soft Pastel Pembe (Rose) Buton */}
